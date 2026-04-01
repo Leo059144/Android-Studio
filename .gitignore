@@ -1,0 +1,25 @@
+# Build
+*.class
+*.apk
+*.ap_
+*.dex
+/build/
+AppliMenu/build/
+AppliMenu/app/build/
+AppliMenu/.gradle/
+AppliMenu/local.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+.DS_Store
+
+# Fichiers temporaires
+~$*
+*.part
+temp_*.docx
+*.b64
+fill_e5.ps1
+fill_e5_v2.ps1
+inject_screens.ps1

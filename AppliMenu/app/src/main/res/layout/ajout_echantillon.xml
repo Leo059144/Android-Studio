@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutAjout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/ajoutTextViewEchantillon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saisie d'un échantillon :"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/ajoutEditTextCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisir ici un code"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/ajoutEditTextLib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisir ici un libellé"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/ajoutEditTextStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saisir ici un stock"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/ajoutButtonAjouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/ajoutButtonQuitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quitter"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/ajoutTextViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="message" />
+</LinearLayout>
